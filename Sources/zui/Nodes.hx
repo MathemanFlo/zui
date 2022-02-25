@@ -397,9 +397,6 @@ class Nodes {
 					dragged = true;
 					node.x += Std.int(ui.inputDX / SCALE());
 					node.y += Std.int(ui.inputDY / SCALE());
-
-					//node.x = Math.floor((ui.inputX - ui._windowX) / 5)*5 - 100;//Math.abs(ui.inputX - ui._windowX - node.x);
-					//node.y = Math.floor((ui.inputY - ui._windowY) / 5)*5;
 				}
 			}
 
